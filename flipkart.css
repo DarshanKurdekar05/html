@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+*
+{
+    box-shadow: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #eee;
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+#headerBlock{
+    background-color: #2874f0;
+    height: 56px;
+}
+#headerBlock article{
+    display: flex;
+    height: 56px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.leftBlock{
+    width: 70%;
+    display: flex;
+
+}
+.rightBlock{
+    width: 30%;
+}
+.logoBlock{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.searchBlock{
+    width: 85%;
+}   
+.parentlogo img{
+    width: 75%;
+
+
+}
+.explore{
+    color: white;
+}
+.plus{
+    color: #ffe500;
+    font-weight: bold;
+    margin: 2px;
+}
+.logoBlock a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 11px;
+    text-transform: capitalize;
+
+}
+.childlogo img{
+    width: 10px;
+}
+/*-----search block start---*/
+.searchBlock form input{
+    width:88%;
+    height: 45px;
+    padding:0 0px 0 30px;
+    border-radius:3px;
+    border:none;
+}
+/*-----search block ends---*/
+
+input{
+    width: 100%;
+}
+.searchBlock i{
+    color: rgb(22, 71, 231);
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 5px;
+    left: -35px;
+}
+.searchicon{
+    position: relative;
+
+}
